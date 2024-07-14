@@ -1,0 +1,23 @@
+Project Structure
+
+1. Frontend (React.js)
+    a. Components
+        App.js: Main chat application component.
+        Chat.jsx: Component for asking and displaying the chat messages.
+        PrevMessage.jsx: Component for displaying previous messages.
+
+    b. Services
+        api.js: All the API's for interacting with the backend API.
+
+2. Backend (Node.js)
+    a. Routes
+        routes.js: Route for handling chat interactions.
+    b. Controllers
+        controller.js: Controller for managing chat logic.
+    c. Services
+        i. service.js: Service for interacting with the OpenAI API.
+        ii. user.service.js: Service for Login and Signup for user.
+    d. Middlewares
+        validate.middleware.js: Middleware for schema and user loggedin.
+    e. Validation
+        auth.validator.js: Middleware for handling user schema.

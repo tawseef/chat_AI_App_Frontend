@@ -1,0 +1,16 @@
+.PreviousMessageContainer {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 15px;
+  border: 1px solid black;
+  height: 300px;
+  width: 1000px;
+  background-color: antiquewhite;
+  text-align: justify;
+  flex-basis: content;
+}
