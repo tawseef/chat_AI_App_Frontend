@@ -9,8 +9,8 @@ const PreviousMessage = () => {
 
   const checkPrevMessage = async () => {
     try {
-      console.log(data.profileUser);
-      console.log("data.logIn", data.logIn);
+      // console.log(data.profileUser);
+      // console.log("data.logIn", data.logIn);
       const response = await axios.get(
         `${PREV_MESSAGE_API}/${data.profileUser}`
       );
